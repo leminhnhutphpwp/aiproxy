@@ -1,0 +1,15 @@
+{
+  "id": "swift-ios",
+  "name": "Swift & iOS Development",
+  "category": "coding",
+  "tags": [
+    "swift",
+    "ios",
+    "swiftui",
+    "uikit",
+    "xcode",
+    "apple",
+    "mobile"
+  ],
+  "tokenEstimate": 1200
+}

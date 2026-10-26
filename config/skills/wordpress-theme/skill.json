@@ -1,0 +1,13 @@
+{
+  "id": "wordpress-theme",
+  "name": "WordPress Theme Development",
+  "description": "Block themes, full site editing, theme.json, template hierarchy, custom blocks, patterns, style variations",
+  "category": "coding",
+  "tags": ["wordpress", "theme", "gutenberg", "block-theme", "full-site-editing", "template"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1300,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

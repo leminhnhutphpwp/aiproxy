@@ -1,0 +1,13 @@
+{
+  "id": "performance-optimization",
+  "name": "Performance Optimization",
+  "description": "Core Web Vitals, lazy loading, caching, bundle optimization, CDN, and profiling",
+  "category": "coding",
+  "tags": ["performance", "optimization", "caching", "bundle", "lighthouse", "lazy-loading"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1200,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

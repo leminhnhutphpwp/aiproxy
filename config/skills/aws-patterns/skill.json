@@ -1,0 +1,15 @@
+{
+  "id": "aws-patterns",
+  "name": "AWS Cloud Patterns",
+  "category": "deployment",
+  "tags": [
+    "aws",
+    "lambda",
+    "s3",
+    "dynamodb",
+    "ecs",
+    "cloudformation",
+    "serverless"
+  ],
+  "tokenEstimate": 1200
+}

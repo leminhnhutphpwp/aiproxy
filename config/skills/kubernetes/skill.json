@@ -1,0 +1,13 @@
+{
+  "id": "kubernetes",
+  "name": "Kubernetes Orchestration",
+  "description": "Pods, deployments, services, ingress, Helm, config maps, secrets, RBAC, scaling, monitoring",
+  "category": "deployment",
+  "tags": ["kubernetes", "k8s", "helm", "docker", "containers", "orchestration", "devops"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1400,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

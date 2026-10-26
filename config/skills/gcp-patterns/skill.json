@@ -1,0 +1,15 @@
+{
+  "id": "gcp-patterns",
+  "name": "GCP Cloud Patterns",
+  "category": "deployment",
+  "tags": [
+    "gcp",
+    "cloud-run",
+    "bigquery",
+    "pubsub",
+    "gke",
+    "cloud-functions",
+    "google-cloud"
+  ],
+  "tokenEstimate": 1200
+}

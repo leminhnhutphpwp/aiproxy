@@ -1,0 +1,13 @@
+{
+  "id": "gsap-animation",
+  "name": "GSAP & Web Animation",
+  "description": "GSAP, ScrollTrigger, timelines, staggers, morphing, motion path, text splitting, SVG animation",
+  "category": "coding",
+  "tags": ["gsap", "animation", "scrolltrigger", "javascript", "motion", "svg", "interactive"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1300,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ui-ux-best-practices",
+  "name": "UI/UX Design Best Practices",
+  "description": "Guidelines for building beautiful, accessible, responsive user interfaces",
+  "category": "coding",
+  "tags": ["ui", "ux", "design", "layout", "responsive", "accessibility", "color", "typography"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1200,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

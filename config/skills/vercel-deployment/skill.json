@@ -1,0 +1,15 @@
+{
+  "id": "vercel-deployment",
+  "name": "Vercel & Edge Deployment",
+  "category": "deployment",
+  "tags": [
+    "vercel",
+    "edge",
+    "nextjs",
+    "serverless",
+    "deployment",
+    "cdn",
+    "frontend"
+  ],
+  "tokenEstimate": 1200
+}

@@ -1,0 +1,13 @@
+{
+  "id": "architecture-decisions",
+  "name": "Architecture Decision Records",
+  "description": "ADR format, RFC process, design documents, trade-off analysis, template, versioning, stakeholder communication",
+  "category": "architecture",
+  "tags": ["adr", "architecture", "decisions", "documentation", "technical-debt", "design-docs", "rfc"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1000,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "security-hardening",
+  "name": "Security Hardening for Web Apps",
+  "description": "OWASP Top 10, XSS, CSRF, SQL injection, CSP, rate limiting, secure auth, and secrets management",
+  "category": "security",
+  "tags": ["security", "owasp", "xss", "csrf", "authentication", "csp", "harden"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1500,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "django",
+  "name": "Django Web Framework",
+  "category": "coding",
+  "tags": [
+    "django",
+    "python",
+    "orm",
+    "drf",
+    "templates",
+    "migrations",
+    "admin"
+  ],
+  "tokenEstimate": 1200
+}

@@ -1,0 +1,13 @@
+{
+  "id": "filamentphp",
+  "name": "FilamentPHP Admin Panels",
+  "description": "Filament v5, resources, forms, tables, widgets, relation managers, plugins, multi-tenancy, themes",
+  "category": "coding",
+  "tags": ["filament", "laravel", "admin", "tables", "forms", "livewire", "tall-stack"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1500,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

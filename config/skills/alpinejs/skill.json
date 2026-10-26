@@ -1,0 +1,13 @@
+{
+  "id": "alpinejs",
+  "name": "Alpine.js Patterns",
+  "description": "Declarative JavaScript, x-data, x-bind, x-on, transitions, stores, plugins, TALL stack integration",
+  "category": "coding",
+  "tags": ["alpinejs", "javascript", "tall-stack", "reactivity", "livewire", "frontend"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1000,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

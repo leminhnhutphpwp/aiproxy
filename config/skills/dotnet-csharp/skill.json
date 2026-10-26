@@ -1,0 +1,15 @@
+{
+  "id": "dotnet-csharp",
+  "name": ".NET & C# Development",
+  "category": "coding",
+  "tags": [
+    "dotnet",
+    "csharp",
+    "entity-framework",
+    "aspnet",
+    "blazor",
+    "azure",
+    "rest"
+  ],
+  "tokenEstimate": 1200
+}

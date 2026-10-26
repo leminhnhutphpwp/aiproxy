@@ -1,0 +1,13 @@
+{
+  "id": "css-advanced",
+  "name": "Advanced CSS & Layout",
+  "description": "Flexbox, Grid, container queries, custom properties, :has(), subgrid, view transitions, layers",
+  "category": "coding",
+  "tags": ["css", "flexbox", "grid", "container-queries", "custom-properties", "layout", "responsive"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1300,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

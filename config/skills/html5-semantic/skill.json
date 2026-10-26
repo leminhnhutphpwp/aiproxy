@@ -1,0 +1,13 @@
+{
+  "id": "html5-semantic",
+  "name": "HTML5 & Semantic Markup",
+  "description": "Semantic elements, ARIA, forms, meta tags, SEO structure, microdata, validation, accessibility",
+  "category": "coding",
+  "tags": ["html5", "semantic", "aria", "seo", "accessibility", "forms", "microdata"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1100,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

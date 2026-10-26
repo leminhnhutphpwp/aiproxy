@@ -1,0 +1,15 @@
+{
+  "id": "rust-systems",
+  "name": "Rust Systems Programming",
+  "category": "coding",
+  "tags": [
+    "rust",
+    "systems",
+    "ownership",
+    "borrowing",
+    "lifetimes",
+    "async",
+    "unsafe"
+  ],
+  "tokenEstimate": 1200
+}

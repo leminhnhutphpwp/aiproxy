@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.codegraph/
+opencode.json
+data/
+config/logs/
+config/status/
+config/usage/
+config/memories/
+config/user-skills/
+config/specialized/
+backups/
+worklogs/

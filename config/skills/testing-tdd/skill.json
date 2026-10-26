@@ -1,0 +1,13 @@
+{
+  "id": "testing-tdd",
+  "name": "Testing & TDD Best Practices",
+  "description": "Test-driven development, Jest, Vitest, React Testing Library, Playwright, and test patterns",
+  "category": "coding",
+  "tags": ["testing", "tdd", "jest", "vitest", "playwright", "cypress", "rtl"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1400,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

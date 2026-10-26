@@ -1,0 +1,15 @@
+{
+  "id": "agile-scrum",
+  "name": "Agile & Scrum Practices",
+  "category": "workflow",
+  "tags": [
+    "agile",
+    "scrum",
+    "sprint",
+    "estimation",
+    "retrospective",
+    "standup",
+    "kanban"
+  ],
+  "tokenEstimate": 1200
+}

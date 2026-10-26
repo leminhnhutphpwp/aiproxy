@@ -1,0 +1,13 @@
+{
+  "id": "elasticsearch",
+  "name": "Elasticsearch & Search Engineering",
+  "description": "Indexing, mappings, analyzers, aggregations, full-text search, relevance tuning, Kibana, ECS",
+  "category": "coding",
+  "tags": ["elasticsearch", "search", "indexing", "kibana", "full-text", "analytics", "elastic"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1300,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

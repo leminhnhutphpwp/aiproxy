@@ -1,0 +1,13 @@
+{
+  "id": "design-systems",
+  "name": "Design Systems & Tokens",
+  "description": "Design tokens, component libraries, Storybook, Figma workflow, theming, accessibility, documentation",
+  "category": "coding",
+  "tags": ["design-systems", "design-tokens", "storybook", "figma", "component-library", "theming", "css-custom-properties"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1200,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "wordpress-rest-api",
+  "name": "WordPress REST API",
+  "description": "Custom endpoints, authentication, permissions, headless WordPress, REST schema, routes, controllers",
+  "category": "coding",
+  "tags": ["wordpress", "rest", "api", "headless", "endpoints", "authentication", "json"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1200,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

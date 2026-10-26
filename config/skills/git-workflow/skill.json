@@ -1,0 +1,13 @@
+{
+  "id": "git-workflow",
+  "name": "Git Workflow Conventions",
+  "description": "Git branching strategy, commit conventions, pull request workflows, and code review practices",
+  "category": "workflow",
+  "tags": ["git", "branching", "commits", "pr", "code-review", "workflow", "versioning"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 700,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

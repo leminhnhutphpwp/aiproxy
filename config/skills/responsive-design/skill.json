@@ -1,0 +1,13 @@
+{
+  "id": "responsive-design",
+  "name": "Responsive Design Patterns",
+  "description": "Mobile-first, fluid typography, clamp(), container queries, breakpoint strategies, testing, accessibility",
+  "category": "coding",
+  "tags": ["responsive", "mobile-first", "css", "breakpoints", "accessibility", "fluid-layout"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1100,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

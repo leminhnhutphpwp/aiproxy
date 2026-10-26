@@ -1,0 +1,13 @@
+{
+  "id": "python-clean-code",
+  "name": "Python Clean Code",
+  "description": "Python coding standards, type hints, testing, project structure, and package management",
+  "category": "coding",
+  "tags": ["python", "clean-code", "testing", "type-hints", "project-structure", "package"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 800,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

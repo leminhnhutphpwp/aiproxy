@@ -1,0 +1,13 @@
+{
+  "id": "laravel-essentials",
+  "name": "Laravel Best Practices",
+  "description": "Laravel conventions, Eloquent, middleware, queues, events, validation, Artisan, service providers, testing",
+  "category": "coding",
+  "tags": ["laravel", "eloquent", "artisan", "middleware", "queues", "validation", "mvc"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1500,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

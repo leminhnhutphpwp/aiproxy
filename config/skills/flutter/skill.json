@@ -1,0 +1,15 @@
+{
+  "id": "flutter",
+  "name": "Flutter & Dart Development",
+  "category": "coding",
+  "tags": [
+    "flutter",
+    "dart",
+    "mobile",
+    "widgets",
+    "state-management",
+    "ios",
+    "android"
+  ],
+  "tokenEstimate": 1200
+}

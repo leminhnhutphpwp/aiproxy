@@ -1,0 +1,13 @@
+{
+  "id": "ci-cd-devops",
+  "name": "CI/CD & DevOps Pipelines",
+  "description": "GitHub Actions, pipeline design, deployment strategies, testing in CI, and environment management",
+  "category": "deployment",
+  "tags": ["ci-cd", "devops", "github-actions", "pipeline", "deployment", "automation"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1200,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

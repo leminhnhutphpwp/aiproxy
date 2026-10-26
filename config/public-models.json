@@ -1,0 +1,83 @@
+{
+  "families": {
+    "gpt-4.1": {
+      "vendor": "OpenAI",
+      "displayName": "GPT 4.1",
+      "matchFamily": [
+        "gpt-4.1"
+      ],
+      "chain": [
+        {
+          "provider": "github-models",
+          "model": "openai/gpt-4.1"
+        }
+      ],
+      "show": true,
+      "enabled": true
+    },
+    "gpt-4.1-mini": {
+      "vendor": "OpenAI",
+      "displayName": "GPT 4.1 Mini",
+      "matchFamily": [
+        "gpt-4.1-mini"
+      ],
+      "chain": [
+        {
+          "provider": "github-models",
+          "model": "openai/gpt-4.1-mini"
+        }
+      ],
+      "show": true,
+      "enabled": true
+    },
+    "deepseek-v3": {
+      "vendor": "DeepSeek",
+      "displayName": "DeepSeek V3",
+      "matchFamily": [
+        "deepseek-v3"
+      ],
+      "chain": [
+        {
+          "provider": "github-models",
+          "model": "deepseek/DeepSeek-V3"
+        }
+      ],
+      "show": true,
+      "enabled": true
+    },
+    "llama-3.3-70b": {
+      "vendor": "Meta",
+      "displayName": "Llama 3.3 70B",
+      "matchFamily": [
+        "llama-3.3"
+      ],
+      "chain": [
+        {
+          "provider": "nvidia",
+          "model": "meta/llama-3.3-70b-instruct"
+        },
+        {
+          "provider": "github-models",
+          "model": "openai/gpt-4.1-mini"
+        }
+      ],
+      "show": true,
+      "enabled": true
+    },
+    "nemotron-3-super": {
+      "vendor": "NVIDIA",
+      "displayName": "Nemotron 3 Super",
+      "matchFamily": [
+        "nemotron-3-super"
+      ],
+      "chain": [
+        {
+          "provider": "nvidia",
+          "model": "nvidia/nemotron-3-super-120b-a12b"
+        }
+      ],
+      "show": true,
+      "enabled": true
+    }
+  }
+}

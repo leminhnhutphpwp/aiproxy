@@ -1,0 +1,15 @@
+{
+  "id": "incident-response",
+  "name": "Incident Response & SRE",
+  "category": "workflow",
+  "tags": [
+    "incident",
+    "sre",
+    "on-call",
+    "postmortem",
+    "reliability",
+    "monitoring",
+    "alerting"
+  ],
+  "tokenEstimate": 1200
+}

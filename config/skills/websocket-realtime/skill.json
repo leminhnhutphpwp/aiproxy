@@ -1,0 +1,13 @@
+{
+  "id": "websocket-realtime",
+  "name": "WebSocket & Real-Time Patterns",
+  "description": "Socket.io, SSE, WebSocket API, channels, rooms, presence, scaling, reconnection, fallback",
+  "category": "coding",
+  "tags": ["websocket", "realtime", "socketio", "sse", "presence", "scaling", "events"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1100,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

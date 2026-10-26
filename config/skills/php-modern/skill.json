@@ -1,0 +1,13 @@
+{
+  "id": "php-modern",
+  "name": "Modern PHP 8.x Patterns",
+  "description": "PHP 8.3+ features, enums, fibers, readonly classes, named arguments, match, Composer, PSR standards",
+  "category": "coding",
+  "tags": ["php", "php8", "composer", "psr", "oop", "enums", "modern"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1300,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "livewire",
+  "name": "Laravel Livewire",
+  "description": "Livewire 3/4, reactive components, polling, Alpine.js integration, form validation, file uploads, testing",
+  "category": "coding",
+  "tags": ["livewire", "laravel", "reactive", "alpinejs", "tall-stack", "components", "forms"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1300,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

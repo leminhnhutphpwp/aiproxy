@@ -1,0 +1,15 @@
+{
+  "id": "data-pipeline",
+  "name": "Data Pipeline Engineering",
+  "category": "architecture",
+  "tags": [
+    "data-pipeline",
+    "etl",
+    "elt",
+    "streaming",
+    "batch",
+    "data-engineering",
+    "spark"
+  ],
+  "tokenEstimate": 1200
+}

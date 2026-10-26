@@ -1,0 +1,13 @@
+{
+  "id": "nextjs-coding",
+  "name": "Next.js App Router Conventions",
+  "description": "Next.js App Router patterns: server components, routing, data fetching, metadata, and deployment",
+  "category": "coding",
+  "tags": ["nextjs", "app-router", "server-components", "routing", "react", "ssr"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1000,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

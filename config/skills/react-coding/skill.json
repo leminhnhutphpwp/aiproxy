@@ -1,0 +1,13 @@
+{
+  "id": "react-coding",
+  "name": "React Coding Conventions",
+  "description": "React coding standards, hooks patterns, component design, and performance optimization",
+  "category": "coding",
+  "tags": ["react", "hooks", "components", "state", "props", "jsx", "performance"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1000,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

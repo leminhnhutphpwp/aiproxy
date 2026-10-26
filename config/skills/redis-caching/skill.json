@@ -1,0 +1,13 @@
+{
+  "id": "redis-caching",
+  "name": "Redis & Caching Strategies",
+  "description": "Caching patterns, pub/sub, sessions, rate limiting, Redis Stack, sorted sets, streams, LRU",
+  "category": "coding",
+  "tags": ["redis", "caching", "pubsub", "session", "rate-limiting", "performance", "database"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1200,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

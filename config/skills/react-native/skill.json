@@ -1,0 +1,13 @@
+{
+  "id": "react-native",
+  "name": "React Native Development",
+  "description": "Components, navigation, Expo, native modules, gestures, animations, state management, release",
+  "category": "coding",
+  "tags": ["react-native", "mobile", "expo", "ios", "android", "javascript", "cross-platform"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1400,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

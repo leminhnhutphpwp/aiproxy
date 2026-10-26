@@ -1,0 +1,13 @@
+{
+  "id": "javascript-es6",
+  "name": "Modern JavaScript ES6+",
+  "description": "Destructuring, modules, async/await, symbols, iterators, generators, Proxy, Reflect, Temporal, WeakRef",
+  "category": "coding",
+  "tags": ["javascript", "es6", "async", "modules", "promises", "modern-js", "es2024"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1300,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

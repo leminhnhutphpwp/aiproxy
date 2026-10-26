@@ -1,0 +1,50 @@
+{
+  "nvidia": {
+    "name": "NVIDIA NIM",
+    "baseURL": "https://integrate.api.nvidia.com/v1",
+    "path": "/v1/chat/completions",
+    "keys": [
+      {
+        "env": "NVIDIA_API_KEY_1",
+        "weight": 100,
+        "rpm": 40
+      },
+      {
+        "env": "NVIDIA_API_KEY_2",
+        "weight": 100,
+        "rpm": 40
+      }
+    ],
+    "timeout": 120000,
+    "models": {
+      "meta/llama-3.3-70b-instruct": {
+        "name": "Llama 3.3 70b Instruct"
+      },
+      "nvidia/nemotron-3-super-120b-a12b": {
+        "name": "Nemotron 3 Super"
+      }
+    }
+  },
+  "github-models": {
+    "name": "GitHub Models",
+    "baseURL": "https://models.github.ai",
+    "apiKeyEnv": "GITHUB_TOKEN",
+    "path": "/inference/chat/completions",
+    "timeout": 120000,
+    "headers": {
+      "Accept": "application/vnd.github+json",
+      "X-GitHub-Api-Version": "2022-11-28"
+    },
+    "models": {
+      "openai/gpt-4.1": {
+        "name": "GPT 4.1"
+      },
+      "openai/gpt-4.1-mini": {
+        "name": "GPT 4.1 Mini"
+      },
+      "deepseek/DeepSeek-V3": {
+        "name": "DeepSeek V3"
+      }
+    }
+  }
+}

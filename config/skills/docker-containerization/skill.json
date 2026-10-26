@@ -1,0 +1,13 @@
+{
+  "id": "docker-containerization",
+  "name": "Docker & Containerization",
+  "description": "Dockerfiles, docker-compose, multi-stage builds, networking, volumes, and best practices",
+  "category": "deployment",
+  "tags": ["docker", "container", "compose", "dockerfile", "deployment", "devops"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1300,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

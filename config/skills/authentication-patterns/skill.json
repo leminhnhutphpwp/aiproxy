@@ -1,0 +1,13 @@
+{
+  "id": "authentication-patterns",
+  "name": "Authentication & Authorization Patterns",
+  "description": "OAuth 2.0, JWT, session management, RBAC, API keys, MFA, and secure password handling",
+  "category": "security",
+  "tags": ["authentication", "oauth", "jwt", "session", "rbac", "mfa", "passwords"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1400,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

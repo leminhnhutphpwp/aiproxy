@@ -1,0 +1,13 @@
+{
+  "id": "prisma-orm",
+  "name": "Prisma ORM Patterns",
+  "description": "Schema design, migrations, relations, type-safe queries, middleware, Prisma Studio, Pulse, Accelerate",
+  "category": "coding",
+  "tags": ["prisma", "orm", "database", "typescript", "migrations", "schema", "query"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1200,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

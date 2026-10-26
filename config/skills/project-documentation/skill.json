@@ -1,0 +1,13 @@
+{
+  "id": "project-documentation",
+  "name": "Project Documentation",
+  "description": "README structure, CONTRIBUTING guidelines, onboarding guides, code of conduct, wikis, living documentation",
+  "category": "general",
+  "tags": ["documentation", "readme", "contributing", "onboarding", "wiki", "markdown", "knowledge-base"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1000,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

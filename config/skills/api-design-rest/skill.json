@@ -1,0 +1,13 @@
+{
+  "id": "api-design-rest",
+  "name": "REST API Design Conventions",
+  "description": "RESTful API design patterns, status codes, error handling, pagination, versioning, and security",
+  "category": "coding",
+  "tags": ["api", "rest", "endpoints", "design", "crud", "openapi", "security"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 900,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "code-review",
+  "name": "Code Review Best Practices",
+  "description": "Structured code review, what to check, how to give feedback, security review, and PR workflows",
+  "category": "workflow",
+  "tags": ["code-review", "pr", "review", "quality", "feedback", "collaboration"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1100,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "pwaseo",
+  "name": "PWA & SEO Best Practices",
+  "description": "Service workers, manifest, offline support, meta tags, structured data, sitemaps, Core Web Vitals",
+  "category": "coding",
+  "tags": ["pwa", "seo", "service-worker", "offline", "structured-data", "manifest", "web-vitals"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1200,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

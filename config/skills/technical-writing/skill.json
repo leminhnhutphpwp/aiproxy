@@ -1,0 +1,13 @@
+{
+  "id": "technical-writing",
+  "name": "Technical Documentation",
+  "description": "README, ADRs, API docs, JSDoc, changelogs, inline comments, diagrams, style guides, README structure",
+  "category": "general",
+  "tags": ["documentation", "writing", "api-docs", "readme", "adr", "changelog", "markdown"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1000,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

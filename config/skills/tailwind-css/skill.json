@@ -1,0 +1,13 @@
+{
+  "id": "tailwind-css",
+  "name": "Tailwind CSS Patterns",
+  "description": "Tailwind CSS conventions, responsive design, custom themes, and component architecture",
+  "category": "coding",
+  "tags": ["tailwind", "css", "styling", "responsive", "design-system", "utility"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 800,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "prompt-engineering",
+  "name": "Prompt Engineering",
+  "category": "general",
+  "tags": [
+    "prompt-engineering",
+    "llm",
+    "ai",
+    "few-shot",
+    "chain-of-thought",
+    "rag",
+    "agents"
+  ],
+  "tokenEstimate": 1200
+}

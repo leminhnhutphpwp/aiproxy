@@ -1,0 +1,13 @@
+{
+  "id": "accessibility-wcag",
+  "name": "Web Accessibility (WCAG)",
+  "description": "WCAG 2.2 guidelines (A/AA/AAA), ARIA patterns, semantic HTML, keyboard navigation, color contrast, screen reader testing",
+  "category": "coding",
+  "tags": ["accessibility", "wcag", "aria", "screen-reader", "a11y", "inclusion", "testing"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1200,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

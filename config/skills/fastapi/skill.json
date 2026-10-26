@@ -1,0 +1,15 @@
+{
+  "id": "fastapi",
+  "name": "FastAPI Patterns",
+  "category": "coding",
+  "tags": [
+    "fastapi",
+    "python",
+    "async",
+    "pydantic",
+    "openapi",
+    "api",
+    "uvicorn"
+  ],
+  "tokenEstimate": 1200
+}

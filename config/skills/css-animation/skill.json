@@ -1,0 +1,13 @@
+{
+  "id": "css-animation",
+  "name": "CSS Animations & Transitions",
+  "description": "Keyframes, transitions, @property, view transitions, animation performance, will-change, triggers",
+  "category": "coding",
+  "tags": ["css", "animation", "keyframes", "transitions", "motion", "performance", "interactive"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1100,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

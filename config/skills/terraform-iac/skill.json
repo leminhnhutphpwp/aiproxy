@@ -1,0 +1,13 @@
+{
+  "id": "terraform-iac",
+  "name": "Terraform Infrastructure as Code",
+  "description": "Resources, modules, state management, workspaces, providers, HCL, remote backends, drift detection",
+  "category": "deployment",
+  "tags": ["terraform", "iac", "infrastructure", "aws", "gcp", "azure", "hcl", "devops"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1300,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

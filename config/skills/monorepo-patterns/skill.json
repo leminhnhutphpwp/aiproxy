@@ -1,0 +1,13 @@
+{
+  "id": "monorepo-patterns",
+  "name": "Monorepo Patterns",
+  "description": "Turborepo, pnpm workspaces, shared packages, dependency management, and build orchestration",
+  "category": "architecture",
+  "tags": ["monorepo", "turborepo", "pnpm", "workspaces", "shared-packages", "build"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1100,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

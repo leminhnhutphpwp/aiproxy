@@ -1,0 +1,13 @@
+{
+  "id": "figma-to-code",
+  "name": "Figma to Code Workflow",
+  "description": "Design-dev handoff, component extraction, design token mapping, Figma plugins, version control for design, specification workflow",
+  "category": "workflow",
+  "tags": ["figma", "design-dev-handoff", "components", "tokens", "plugin", "design-system", "collaboration"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1000,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

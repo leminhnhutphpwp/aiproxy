@@ -1,0 +1,13 @@
+{
+  "id": "woocommerce",
+  "name": "WooCommerce Development",
+  "description": "Product types, hooks, custom checkout, payment gateways, shipping, extensions, REST API",
+  "category": "coding",
+  "tags": ["woocommerce", "wordpress", "ecommerce", "payment", "shipping", "plugin"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1300,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

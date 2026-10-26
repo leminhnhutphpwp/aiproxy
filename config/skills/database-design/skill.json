@@ -1,0 +1,13 @@
+{
+  "id": "database-design",
+  "name": "Database Design & Schema",
+  "description": "Schema design, normalization, migrations, indexing strategy, and data modeling patterns",
+  "category": "architecture",
+  "tags": ["database", "schema", "migration", "normalization", "indexing", "data-modeling"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1300,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

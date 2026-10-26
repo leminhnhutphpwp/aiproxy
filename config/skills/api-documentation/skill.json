@@ -1,0 +1,13 @@
+{
+  "id": "api-documentation",
+  "name": "API Documentation",
+  "description": "OpenAPI/Swagger specs, JSDoc/Typedoc, API reference docs, changelogs, versioning, examples, request/response documentation",
+  "category": "general",
+  "tags": ["api", "documentation", "openapi", "swagger", "jsdoc", "changelog", "developer-experience"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1000,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

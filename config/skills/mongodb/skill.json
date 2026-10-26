@@ -1,0 +1,13 @@
+{
+  "id": "mongodb",
+  "name": "MongoDB Patterns",
+  "description": "Document modeling, aggregation pipeline, indexes, Atlas, change streams, transactions, schema design",
+  "category": "coding",
+  "tags": ["mongodb", "nosql", "aggregation", "document", "atlas", "database", "schema-design"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1200,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

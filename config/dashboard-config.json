@@ -1,0 +1,52 @@
+{
+  "healthCheck": {
+    "intervalMs": 60000,
+    "providerCooldownMs": 60000,
+    "probeTimeoutMs": 15000,
+    "sweepProbeTimeoutMs": 3000,
+    "probeCleanupTimeoutMs": 3000,
+    "interProbeDelayMs": 1000,
+    "sweepInterProbeDelayMs": 0,
+    "firstCheckDelayMs": 10000,
+    "probeMessage": "Hi",
+    "probeMaxTokens": 10,
+    "probeStaleHealthyMs": 900000
+  },
+  "circuitBreaker": {
+    "threshold": 3,
+    "cooldownMs": 30000,
+    "requestTimeoutMs": 15000
+  },
+  "errorCooldowns": {
+    "authCooldownMs": 600000,
+    "quotaCooldownMs": 600000,
+    "rateLimitCooldownMs": 30000,
+    "timeoutCooldownMs": 15000,
+    "providerUnavailableCooldownMs": 30000
+  },
+  "logging": {
+    "maxEntries": 200,
+    "defaultLimit": 100
+  },
+  "auth": {
+    "sessionMaxAgeDefault": 86400,
+    "sessionMaxAgeRemember": 604800,
+    "sessionMaxAgeStandard": 3600
+  },
+  "infra": {
+    "corsOrigin": "*",
+    "discoveryRefreshMs": 60000,
+    "staticCacheMaxAge": 86400,
+    "streamingChunkSize": 20
+  },
+  "statusCompute": {
+    "degradedWindowMs": 60000,
+    "recentSuccessWindowMs": 60000,
+    "probeConfidenceThreshold": 2,
+    "recoveryWindowMs": 300000
+  },
+  "policy": {
+    "defaultSystemPrompt": "",
+    "vendorPrompts": {}
+  }
+}

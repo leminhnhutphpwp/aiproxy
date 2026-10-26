@@ -1,0 +1,13 @@
+{
+  "id": "postgres-optimization",
+  "name": "PostgreSQL Optimization",
+  "description": "Query planning, indexing strategies, EXPLAIN ANALYZE, partitioning, vacuum, and performance tuning",
+  "category": "coding",
+  "tags": ["postgresql", "postgres", "optimization", "indexing", "query-plan", "performance"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1300,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

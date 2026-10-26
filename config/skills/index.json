@@ -1,0 +1,1068 @@
+{
+  "version": "1.0.0",
+  "skills": [
+    {
+      "id": "accessibility-wcag",
+      "name": "Web Accessibility (WCAG)",
+      "category": "coding",
+      "tags": [
+        "accessibility",
+        "wcag",
+        "aria",
+        "screen-reader",
+        "a11y",
+        "inclusion",
+        "testing"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "agile-scrum",
+      "name": "Agile & Scrum Practices",
+      "category": "workflow",
+      "tags": [
+        "agile",
+        "scrum",
+        "sprint",
+        "estimation",
+        "retrospective",
+        "standup",
+        "kanban"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "alpinejs",
+      "name": "Alpine.js Patterns",
+      "category": "coding",
+      "tags": [
+        "alpinejs",
+        "javascript",
+        "tall-stack",
+        "reactivity",
+        "livewire",
+        "frontend"
+      ],
+      "tokenEstimate": 1000
+    },
+    {
+      "id": "api-design-rest",
+      "name": "REST API Design Conventions",
+      "category": "coding",
+      "tags": [
+        "api",
+        "rest",
+        "endpoints",
+        "design",
+        "crud",
+        "openapi",
+        "security"
+      ],
+      "tokenEstimate": 900
+    },
+    {
+      "id": "api-documentation",
+      "name": "API Documentation",
+      "category": "general",
+      "tags": [
+        "api",
+        "documentation",
+        "openapi",
+        "swagger",
+        "jsdoc",
+        "changelog",
+        "developer-experience"
+      ],
+      "tokenEstimate": 1000
+    },
+    {
+      "id": "architecture-decisions",
+      "name": "Architecture Decision Records",
+      "category": "architecture",
+      "tags": [
+        "adr",
+        "architecture",
+        "decisions",
+        "documentation",
+        "technical-debt",
+        "design-docs",
+        "rfc"
+      ],
+      "tokenEstimate": 1000
+    },
+    {
+      "id": "authentication-patterns",
+      "name": "Authentication & Authorization Patterns",
+      "category": "security",
+      "tags": [
+        "authentication",
+        "oauth",
+        "jwt",
+        "session",
+        "rbac",
+        "mfa",
+        "passwords"
+      ],
+      "tokenEstimate": 1400
+    },
+    {
+      "id": "aws-patterns",
+      "name": "AWS Cloud Patterns",
+      "category": "deployment",
+      "tags": [
+        "aws",
+        "lambda",
+        "s3",
+        "dynamodb",
+        "ecs",
+        "cloudformation",
+        "serverless"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "ci-cd-devops",
+      "name": "CI/CD & DevOps Pipelines",
+      "category": "deployment",
+      "tags": [
+        "ci-cd",
+        "devops",
+        "github-actions",
+        "pipeline",
+        "deployment",
+        "automation"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "code-review",
+      "name": "Code Review Best Practices",
+      "category": "workflow",
+      "tags": [
+        "code-review",
+        "pr",
+        "review",
+        "quality",
+        "feedback",
+        "collaboration"
+      ],
+      "tokenEstimate": 1100
+    },
+    {
+      "id": "css-advanced",
+      "name": "Advanced CSS & Layout",
+      "category": "coding",
+      "tags": [
+        "css",
+        "flexbox",
+        "grid",
+        "container-queries",
+        "custom-properties",
+        "layout",
+        "responsive"
+      ],
+      "tokenEstimate": 1300
+    },
+    {
+      "id": "css-animation",
+      "name": "CSS Animations & Transitions",
+      "category": "coding",
+      "tags": [
+        "css",
+        "animation",
+        "keyframes",
+        "transitions",
+        "motion",
+        "performance",
+        "interactive"
+      ],
+      "tokenEstimate": 1100
+    },
+    {
+      "id": "data-pipeline",
+      "name": "Data Pipeline Engineering",
+      "category": "architecture",
+      "tags": [
+        "data-pipeline",
+        "etl",
+        "elt",
+        "streaming",
+        "batch",
+        "data-engineering",
+        "spark"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "database-design",
+      "name": "Database Design & Schema",
+      "category": "architecture",
+      "tags": [
+        "database",
+        "schema",
+        "migration",
+        "normalization",
+        "indexing",
+        "data-modeling"
+      ],
+      "tokenEstimate": 1300
+    },
+    {
+      "id": "design-systems",
+      "name": "Design Systems & Tokens",
+      "category": "coding",
+      "tags": [
+        "design-systems",
+        "design-tokens",
+        "storybook",
+        "figma",
+        "component-library",
+        "theming",
+        "css-custom-properties"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "django",
+      "name": "Django Web Framework",
+      "category": "coding",
+      "tags": [
+        "django",
+        "python",
+        "orm",
+        "drf",
+        "templates",
+        "migrations",
+        "admin"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "docker-containerization",
+      "name": "Docker & Containerization",
+      "category": "deployment",
+      "tags": [
+        "docker",
+        "container",
+        "compose",
+        "dockerfile",
+        "deployment",
+        "devops"
+      ],
+      "tokenEstimate": 1300
+    },
+    {
+      "id": "dotnet-csharp",
+      "name": ".NET & C# Development",
+      "category": "coding",
+      "tags": [
+        "dotnet",
+        "csharp",
+        "entity-framework",
+        "aspnet",
+        "blazor",
+        "azure",
+        "rest"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "elasticsearch",
+      "name": "Elasticsearch & Search Engineering",
+      "category": "coding",
+      "tags": [
+        "elasticsearch",
+        "search",
+        "indexing",
+        "kibana",
+        "full-text",
+        "analytics",
+        "elastic"
+      ],
+      "tokenEstimate": 1300
+    },
+    {
+      "id": "fastapi",
+      "name": "FastAPI Patterns",
+      "category": "coding",
+      "tags": [
+        "fastapi",
+        "python",
+        "async",
+        "pydantic",
+        "openapi",
+        "api",
+        "uvicorn"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "figma-to-code",
+      "name": "Figma to Code Workflow",
+      "category": "workflow",
+      "tags": [
+        "figma",
+        "design-dev-handoff",
+        "components",
+        "tokens",
+        "plugin",
+        "design-system",
+        "collaboration"
+      ],
+      "tokenEstimate": 1000
+    },
+    {
+      "id": "filamentphp",
+      "name": "FilamentPHP Admin Panels",
+      "category": "coding",
+      "tags": [
+        "filament",
+        "laravel",
+        "admin",
+        "tables",
+        "forms",
+        "livewire",
+        "tall-stack"
+      ],
+      "tokenEstimate": 1500
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter & Dart Development",
+      "category": "coding",
+      "tags": [
+        "flutter",
+        "dart",
+        "mobile",
+        "widgets",
+        "state-management",
+        "ios",
+        "android"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "gcp-patterns",
+      "name": "GCP Cloud Patterns",
+      "category": "deployment",
+      "tags": [
+        "gcp",
+        "cloud-run",
+        "bigquery",
+        "pubsub",
+        "gke",
+        "cloud-functions",
+        "google-cloud"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "git-workflow",
+      "name": "Git Workflow Conventions",
+      "category": "workflow",
+      "tags": [
+        "git",
+        "branching",
+        "commits",
+        "pr",
+        "code-review",
+        "workflow",
+        "versioning"
+      ],
+      "tokenEstimate": 700
+    },
+    {
+      "id": "go-backend",
+      "name": "Go Backend Patterns",
+      "category": "coding",
+      "tags": [
+        "go",
+        "golang",
+        "concurrency",
+        "channels",
+        "http",
+        "api",
+        "backend"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "graphql",
+      "name": "GraphQL Development",
+      "category": "coding",
+      "tags": [
+        "graphql",
+        "apollo",
+        "schema",
+        "resolvers",
+        "subscriptions",
+        "federation",
+        "api"
+      ],
+      "tokenEstimate": 1300
+    },
+    {
+      "id": "gsap-animation",
+      "name": "GSAP & Web Animation",
+      "category": "coding",
+      "tags": [
+        "gsap",
+        "animation",
+        "scrolltrigger",
+        "javascript",
+        "motion",
+        "svg",
+        "interactive"
+      ],
+      "tokenEstimate": 1300
+    },
+    {
+      "id": "html5-semantic",
+      "name": "HTML5 & Semantic Markup",
+      "category": "coding",
+      "tags": [
+        "html5",
+        "semantic",
+        "aria",
+        "seo",
+        "accessibility",
+        "forms",
+        "microdata"
+      ],
+      "tokenEstimate": 1100
+    },
+    {
+      "id": "incident-response",
+      "name": "Incident Response & SRE",
+      "category": "workflow",
+      "tags": [
+        "incident",
+        "sre",
+        "on-call",
+        "postmortem",
+        "reliability",
+        "monitoring",
+        "alerting"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "javascript-es6",
+      "name": "Modern JavaScript ES6+",
+      "category": "coding",
+      "tags": [
+        "javascript",
+        "es6",
+        "async",
+        "modules",
+        "promises",
+        "modern-js",
+        "es2024"
+      ],
+      "tokenEstimate": 1300
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes Orchestration",
+      "category": "deployment",
+      "tags": [
+        "kubernetes",
+        "k8s",
+        "helm",
+        "docker",
+        "containers",
+        "orchestration",
+        "devops"
+      ],
+      "tokenEstimate": 1400
+    },
+    {
+      "id": "laravel-essentials",
+      "name": "Laravel Best Practices",
+      "category": "coding",
+      "tags": [
+        "laravel",
+        "eloquent",
+        "artisan",
+        "middleware",
+        "queues",
+        "validation",
+        "mvc"
+      ],
+      "tokenEstimate": 1500
+    },
+    {
+      "id": "livewire",
+      "name": "Laravel Livewire",
+      "category": "coding",
+      "tags": [
+        "livewire",
+        "laravel",
+        "reactive",
+        "alpinejs",
+        "tall-stack",
+        "components",
+        "forms"
+      ],
+      "tokenEstimate": 1300
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB Patterns",
+      "category": "coding",
+      "tags": [
+        "mongodb",
+        "nosql",
+        "aggregation",
+        "document",
+        "atlas",
+        "database",
+        "schema-design"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "monorepo-patterns",
+      "name": "Monorepo Patterns",
+      "category": "architecture",
+      "tags": [
+        "monorepo",
+        "turborepo",
+        "pnpm",
+        "workspaces",
+        "shared-packages",
+        "build"
+      ],
+      "tokenEstimate": 1100
+    },
+    {
+      "id": "nextjs-coding",
+      "name": "Next.js App Router Conventions",
+      "category": "coding",
+      "tags": [
+        "nextjs",
+        "app-router",
+        "server-components",
+        "routing",
+        "react",
+        "ssr"
+      ],
+      "tokenEstimate": 1000
+    },
+    {
+      "id": "nodejs-backend",
+      "name": "Node.js Backend Patterns",
+      "category": "coding",
+      "tags": [
+        "nodejs",
+        "express",
+        "fastify",
+        "backend",
+        "middleware",
+        "api",
+        "async"
+      ],
+      "tokenEstimate": 1300
+    },
+    {
+      "id": "performance-optimization",
+      "name": "Performance Optimization",
+      "category": "coding",
+      "tags": [
+        "performance",
+        "optimization",
+        "caching",
+        "bundle",
+        "lighthouse",
+        "lazy-loading"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "php-modern",
+      "name": "Modern PHP 8.x Patterns",
+      "category": "coding",
+      "tags": [
+        "php",
+        "php8",
+        "composer",
+        "psr",
+        "oop",
+        "enums",
+        "modern"
+      ],
+      "tokenEstimate": 1300
+    },
+    {
+      "id": "postgres-optimization",
+      "name": "PostgreSQL Optimization",
+      "category": "coding",
+      "tags": [
+        "postgresql",
+        "postgres",
+        "optimization",
+        "indexing",
+        "query-plan",
+        "performance"
+      ],
+      "tokenEstimate": 1300
+    },
+    {
+      "id": "prisma-orm",
+      "name": "Prisma ORM Patterns",
+      "category": "coding",
+      "tags": [
+        "prisma",
+        "orm",
+        "database",
+        "typescript",
+        "migrations",
+        "schema",
+        "query"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "project-documentation",
+      "name": "Project Documentation",
+      "category": "general",
+      "tags": [
+        "documentation",
+        "readme",
+        "contributing",
+        "onboarding",
+        "wiki",
+        "markdown",
+        "knowledge-base"
+      ],
+      "tokenEstimate": 1000
+    },
+    {
+      "id": "prompt-engineering",
+      "name": "Prompt Engineering",
+      "category": "general",
+      "tags": [
+        "prompt-engineering",
+        "llm",
+        "ai",
+        "few-shot",
+        "chain-of-thought",
+        "rag",
+        "agents"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "pwaseo",
+      "name": "PWA & SEO Best Practices",
+      "category": "coding",
+      "tags": [
+        "pwa",
+        "seo",
+        "service-worker",
+        "offline",
+        "structured-data",
+        "manifest",
+        "web-vitals"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "python-clean-code",
+      "name": "Python Clean Code",
+      "category": "coding",
+      "tags": [
+        "python",
+        "clean-code",
+        "testing",
+        "type-hints",
+        "project-structure",
+        "package"
+      ],
+      "tokenEstimate": 800
+    },
+    {
+      "id": "rag-patterns",
+      "name": "RAG & Vector Search",
+      "category": "coding",
+      "tags": [
+        "rag",
+        "vector-database",
+        "embeddings",
+        "retrieval",
+        "llm",
+        "semantic-search",
+        "chromadb"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "react-coding",
+      "name": "React Coding Conventions",
+      "category": "coding",
+      "tags": [
+        "react",
+        "hooks",
+        "components",
+        "state",
+        "props",
+        "jsx",
+        "performance"
+      ],
+      "tokenEstimate": 1000
+    },
+    {
+      "id": "react-native",
+      "name": "React Native Development",
+      "category": "coding",
+      "tags": [
+        "react-native",
+        "mobile",
+        "expo",
+        "ios",
+        "android",
+        "javascript",
+        "cross-platform"
+      ],
+      "tokenEstimate": 1400
+    },
+    {
+      "id": "redis-caching",
+      "name": "Redis & Caching Strategies",
+      "category": "coding",
+      "tags": [
+        "redis",
+        "caching",
+        "pubsub",
+        "session",
+        "rate-limiting",
+        "performance",
+        "database"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "responsive-design",
+      "name": "Responsive Design Patterns",
+      "category": "coding",
+      "tags": [
+        "responsive",
+        "mobile-first",
+        "css",
+        "breakpoints",
+        "accessibility",
+        "fluid-layout"
+      ],
+      "tokenEstimate": 1100
+    },
+    {
+      "id": "rust-systems",
+      "name": "Rust Systems Programming",
+      "category": "coding",
+      "tags": [
+        "rust",
+        "systems",
+        "ownership",
+        "borrowing",
+        "lifetimes",
+        "async",
+        "unsafe"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "sass-scss",
+      "name": "SASS/SCSS Patterns",
+      "category": "coding",
+      "tags": [
+        "sass",
+        "scss",
+        "css",
+        "preprocessor",
+        "bem",
+        "mixins",
+        "design-tokens"
+      ],
+      "tokenEstimate": 1000
+    },
+    {
+      "id": "security-hardening",
+      "name": "Security Hardening for Web Apps",
+      "category": "security",
+      "tags": [
+        "security",
+        "owasp",
+        "xss",
+        "csrf",
+        "authentication",
+        "csp",
+        "harden"
+      ],
+      "tokenEstimate": 1500
+    },
+    {
+      "id": "serverless-edge",
+      "name": "Serverless & Edge Computing",
+      "category": "deployment",
+      "tags": [
+        "serverless",
+        "edge",
+        "lambda",
+        "cloudflare",
+        "vercel",
+        "functions",
+        "faas"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "state-management",
+      "name": "State Management Patterns",
+      "category": "coding",
+      "tags": [
+        "state-management",
+        "zustand",
+        "redux",
+        "pinia",
+        "react",
+        "vue",
+        "signals"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase Development",
+      "category": "coding",
+      "tags": [
+        "supabase",
+        "postgresql",
+        "authentication",
+        "realtime",
+        "storage",
+        "baas",
+        "database"
+      ],
+      "tokenEstimate": 1300
+    },
+    {
+      "id": "swift-ios",
+      "name": "Swift & iOS Development",
+      "category": "coding",
+      "tags": [
+        "swift",
+        "ios",
+        "swiftui",
+        "uikit",
+        "xcode",
+        "apple",
+        "mobile"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "systematic-debugging",
+      "name": "Systematic Debugging & Root Cause Analysis",
+      "category": "general",
+      "tags": [
+        "debugging",
+        "root-cause",
+        "troubleshooting",
+        "reproduction",
+        "fixing"
+      ],
+      "tokenEstimate": 1000
+    },
+    {
+      "id": "tailwind-css",
+      "name": "Tailwind CSS Patterns",
+      "category": "coding",
+      "tags": [
+        "tailwind",
+        "css",
+        "styling",
+        "responsive",
+        "design-system",
+        "utility"
+      ],
+      "tokenEstimate": 800
+    },
+    {
+      "id": "technical-writing",
+      "name": "Technical Documentation",
+      "category": "general",
+      "tags": [
+        "documentation",
+        "writing",
+        "api-docs",
+        "readme",
+        "adr",
+        "changelog",
+        "markdown"
+      ],
+      "tokenEstimate": 1000
+    },
+    {
+      "id": "terraform-iac",
+      "name": "Terraform Infrastructure as Code",
+      "category": "deployment",
+      "tags": [
+        "terraform",
+        "iac",
+        "infrastructure",
+        "aws",
+        "gcp",
+        "azure",
+        "hcl",
+        "devops"
+      ],
+      "tokenEstimate": 1300
+    },
+    {
+      "id": "testing-tdd",
+      "name": "Testing & TDD Best Practices",
+      "category": "coding",
+      "tags": [
+        "testing",
+        "tdd",
+        "jest",
+        "vitest",
+        "playwright",
+        "cypress",
+        "rtl"
+      ],
+      "tokenEstimate": 1400
+    },
+    {
+      "id": "trpc",
+      "name": "tRPC Type-Safe APIs",
+      "category": "coding",
+      "tags": [
+        "trpc",
+        "typescript",
+        "rpc",
+        "react-query",
+        "api",
+        "end-to-end-typesafe"
+      ],
+      "tokenEstimate": 1000
+    },
+    {
+      "id": "typescript-best-practices",
+      "name": "TypeScript Best Practices",
+      "category": "coding",
+      "tags": [
+        "typescript",
+        "types",
+        "generics",
+        "patterns",
+        "strict",
+        "tsconfig"
+      ],
+      "tokenEstimate": 900
+    },
+    {
+      "id": "ui-ux-best-practices",
+      "name": "UI/UX Design Best Practices",
+      "category": "coding",
+      "tags": [
+        "ui",
+        "ux",
+        "design",
+        "layout",
+        "responsive",
+        "accessibility",
+        "color",
+        "typography"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "vercel-deployment",
+      "name": "Vercel & Edge Deployment",
+      "category": "deployment",
+      "tags": [
+        "vercel",
+        "edge",
+        "nextjs",
+        "serverless",
+        "deployment",
+        "cdn",
+        "frontend"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "websocket-realtime",
+      "name": "WebSocket & Real-Time Patterns",
+      "category": "coding",
+      "tags": [
+        "websocket",
+        "realtime",
+        "socketio",
+        "sse",
+        "presence",
+        "scaling",
+        "events"
+      ],
+      "tokenEstimate": 1100
+    },
+    {
+      "id": "woocommerce",
+      "name": "WooCommerce Development",
+      "category": "coding",
+      "tags": [
+        "woocommerce",
+        "wordpress",
+        "ecommerce",
+        "payment",
+        "shipping",
+        "plugin"
+      ],
+      "tokenEstimate": 1300
+    },
+    {
+      "id": "wordpress-plugin",
+      "name": "WordPress Plugin Development",
+      "category": "coding",
+      "tags": [
+        "wordpress",
+        "plugin",
+        "hooks",
+        "gutenberg",
+        "cpt",
+        "wordpress-api"
+      ],
+      "tokenEstimate": 1400
+    },
+    {
+      "id": "wordpress-rest-api",
+      "name": "WordPress REST API",
+      "category": "coding",
+      "tags": [
+        "wordpress",
+        "rest",
+        "api",
+        "headless",
+        "endpoints",
+        "authentication",
+        "json"
+      ],
+      "tokenEstimate": 1200
+    },
+    {
+      "id": "wordpress-theme",
+      "name": "WordPress Theme Development",
+      "category": "coding",
+      "tags": [
+        "wordpress",
+        "theme",
+        "gutenberg",
+        "block-theme",
+        "full-site-editing",
+        "template"
+      ],
+      "tokenEstimate": 1300
+    }
+  ]
+}

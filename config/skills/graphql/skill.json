@@ -1,0 +1,13 @@
+{
+  "id": "graphql",
+  "name": "GraphQL Development",
+  "description": "Schema design, resolvers, Apollo Server/Client, subscriptions, federation, caching, codegen",
+  "category": "coding",
+  "tags": ["graphql", "apollo", "schema", "resolvers", "subscriptions", "federation", "api"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1300,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

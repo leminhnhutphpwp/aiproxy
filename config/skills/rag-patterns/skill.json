@@ -1,0 +1,15 @@
+{
+  "id": "rag-patterns",
+  "name": "RAG & Vector Search",
+  "category": "coding",
+  "tags": [
+    "rag",
+    "vector-database",
+    "embeddings",
+    "retrieval",
+    "llm",
+    "semantic-search",
+    "chromadb"
+  ],
+  "tokenEstimate": 1200
+}

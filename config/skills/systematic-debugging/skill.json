@@ -1,0 +1,13 @@
+{
+  "id": "systematic-debugging",
+  "name": "Systematic Debugging & Root Cause Analysis",
+  "description": "Methodical debugging workflow, isolating causes, reproduction steps, and fixing without regressions",
+  "category": "general",
+  "tags": ["debugging", "root-cause", "troubleshooting", "reproduction", "fixing"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1000,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

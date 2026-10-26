@@ -1,0 +1,13 @@
+{
+  "id": "supabase",
+  "name": "Supabase Development",
+  "description": "Auth, realtime subscriptions, Edge Functions, RLS policies, storage, vector search, Postgres",
+  "category": "coding",
+  "tags": ["supabase", "postgresql", "authentication", "realtime", "storage", "baas", "database"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1300,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

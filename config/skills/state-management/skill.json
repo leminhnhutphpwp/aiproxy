@@ -1,0 +1,13 @@
+{
+  "id": "state-management",
+  "name": "State Management Patterns",
+  "description": "Zustand, Redux Toolkit, Pinia, signals, atomic state, middleware, persistence, devtools",
+  "category": "coding",
+  "tags": ["state-management", "zustand", "redux", "pinia", "react", "vue", "signals"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1200,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}

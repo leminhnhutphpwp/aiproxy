@@ -1,0 +1,15 @@
+{
+  "id": "go-backend",
+  "name": "Go Backend Patterns",
+  "category": "coding",
+  "tags": [
+    "go",
+    "golang",
+    "concurrency",
+    "channels",
+    "http",
+    "api",
+    "backend"
+  ],
+  "tokenEstimate": 1200
+}

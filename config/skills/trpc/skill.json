@@ -1,0 +1,13 @@
+{
+  "id": "trpc",
+  "name": "tRPC Type-Safe APIs",
+  "description": "Routers, procedures, middleware, React Query integration, subscriptions, codegen, server contexts",
+  "category": "coding",
+  "tags": ["trpc", "typescript", "rpc", "react-query", "api", "end-to-end-typesafe"],
+  "version": "1.0.0",
+  "author": "admin",
+  "tokenEstimate": 1000,
+  "createdAt": "2026-07-01T00:00:00Z",
+  "updatedAt": "2026-07-01T00:00:00Z",
+  "source": "manual"
+}
