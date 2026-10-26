@@ -1,5 +1,8 @@
 # aiproxy
 
+[![test](https://github.com/leminhnhutphpwp/aiproxy/actions/workflows/test.yml/badge.svg)](https://github.com/leminhnhutphpwp/aiproxy/actions/workflows/test.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 A self-hosted LLM gateway in plain Node.js with no npm dependencies. It speaks the OpenAI and
 Anthropic wire formats, routes each model alias through a chain of upstream providers, and falls
 back to the next one when a provider is slow, rate-limited or down. A built-in web dashboard shows
@@ -55,7 +58,9 @@ curl http://127.0.0.1:4097/v1/models/status
 ## Calling the API
 
 Clients authenticate with HTTP Basic using `OPENCODE_USERNAME` / `OPENCODE_PASSWORD` from `.env`.
-**Set both values.** When either is empty, any Basic credentials are accepted.
+Set both values: auth fails closed, so while either is empty every Basic request gets `401`.
+The dashboard works the same way and refuses logins until both `DASHBOARD_USER` and
+`DASHBOARD_PASS` are set.
 
 ```bash
 curl http://127.0.0.1:4097/v1/chat/completions \
@@ -102,6 +107,9 @@ do this from the dashboard. API keys never go in the JSON files, only env variab
 ```bash
 npm test
 ```
+
+The suite uses Node's built-in test runner, needs no network or provider keys, and runs on every
+push and pull request (Node 20 and 22).
 
 ## License
 

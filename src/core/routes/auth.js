@@ -46,6 +46,10 @@ function register(dashboardApp) {
     if (isLoginBlocked(clientIp)) {
       return dashboardApp.sendJson(res, 429, { error: 'Too many failed attempts. Try again in 15 minutes.' });
     }
+    // Without both values set, an empty username/password would match; refuse instead.
+    if (!DASHBOARD_USER || !DASHBOARD_PASS) {
+      return dashboardApp.sendJson(res, 503, { error: 'Dashboard login is not configured' });
+    }
     const { username, password, remember } = req.body || {};
     const usernameOk = timingSafeEqual(username, DASHBOARD_USER);
     const passwordOk = timingSafeEqual(password, DASHBOARD_PASS);

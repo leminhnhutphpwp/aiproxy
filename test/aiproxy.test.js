@@ -1405,17 +1405,20 @@ test('direct provider requests use openai-compatible transport without opencode 
   const originalGetPolicyForModel = require('../src/core/policy').getPolicyForModel;
   const originalInjectSystemPrompt = require('../src/core/policy').injectSystemPrompt;
   const originalChatCompletion = openaiCompatible.chatCompletion;
+  const originalGithubToken = process.env.GITHUB_TOKEN;
 
   let createSessionCalls = 0;
   let directCalls = 0;
 
+  // github-models ships in config/direct-providers.json and reads its key from GITHUB_TOKEN.
+  process.env.GITHUB_TOKEN = 'test-token';
   registry.resolveModel = () => ({
-    alias: 'factory-alias',
-    providerID: 'factory-gpt',
-    modelID: 'gpt-5.4-mini',
-    candidates: [{ providerID: 'factory-gpt', modelID: 'gpt-5.4-mini', transport: 'openai-compatible' }],
+    alias: 'direct-alias',
+    providerID: 'github-models',
+    modelID: 'openai/gpt-4.1-mini',
+    candidates: [{ providerID: 'github-models', modelID: 'openai/gpt-4.1-mini', transport: 'openai-compatible' }],
   });
-  registry.getModelCandidates = () => ([{ providerID: 'factory-gpt', modelID: 'gpt-5.4-mini', transport: 'openai-compatible' }]);
+  registry.getModelCandidates = () => ([{ providerID: 'github-models', modelID: 'openai/gpt-4.1-mini', transport: 'openai-compatible' }]);
   registry.isProviderConnected = () => true;
   opencode.createSession = async () => {
     createSessionCalls += 1;
@@ -1426,8 +1429,9 @@ test('direct provider requests use openai-compatible transport without opencode 
   require('../src/core/policy').injectSystemPrompt = messages => messages;
   openaiCompatible.chatCompletion = async (providerConfig, model, messages) => {
     directCalls += 1;
-    assert.equal(providerConfig.baseUrl, 'https://factory.pub/v1');
-    assert.equal(model, 'gpt-5.4-mini');
+    assert.equal(providerConfig.baseUrl, 'https://models.github.ai');
+    assert.equal(providerConfig.apiKey, 'test-token');
+    assert.equal(model, 'openai/gpt-4.1-mini');
     assert.equal(messages[0].content, 'hello');
     return {
       content: 'ok',
@@ -1445,9 +1449,11 @@ test('direct provider requests use openai-compatible transport without opencode 
     require('../src/core/policy').getPolicyForModel = originalGetPolicyForModel;
     require('../src/core/policy').injectSystemPrompt = originalInjectSystemPrompt;
     openaiCompatible.chatCompletion = originalChatCompletion;
+    if (originalGithubToken === undefined) delete process.env.GITHUB_TOKEN;
+    else process.env.GITHUB_TOKEN = originalGithubToken;
   });
 
-  const req = makeChatRequest({ model: 'factory-alias', messages: [{ role: 'user', content: 'hello' }] });
+  const req = makeChatRequest({ model: 'direct-alias', messages: [{ role: 'user', content: 'hello' }] });
   const res = makeResponseStub();
   await router.handleRequest(req, res);
 
@@ -1767,4 +1773,46 @@ test('key pool: key recovers after cooldown expiry, success clears state, failur
 
   Date.now = originalNow;
   keyPool.resetKeyStates();
+});
+
+const clientAuth = require('../src/core/client-auth');
+
+function basicHeader(user, pass) {
+  return { authorization: 'Basic ' + Buffer.from(user + ':' + pass).toString('base64') };
+}
+
+test('client auth refuses Basic credentials when none are configured', async () => {
+  for (const credentials of [{ username: '', password: '' }, { username: 'admin', password: '' }, { username: '', password: 'secret' }]) {
+    const err = await clientAuth.authenticate({ headers: basicHeader('anyone', 'anything') }, credentials);
+    assert.ok(err, 'expected rejection for ' + JSON.stringify(credentials));
+    assert.equal(err.statusCode, 401);
+    assert.equal(err.message, 'Client authentication is not configured');
+  }
+});
+
+test('client auth accepts matching Basic credentials and rejects wrong ones', async () => {
+  const credentials = { username: 'client', password: 's3cret' };
+  assert.equal(await clientAuth.authenticate({ headers: basicHeader('client', 's3cret') }, credentials), null);
+
+  for (const [user, pass] of [['client', 'wrong'], ['other', 's3cret'], ['client', 's3cret-longer'], ['', '']]) {
+    const err = await clientAuth.authenticate({ headers: basicHeader(user, pass) }, credentials);
+    assert.ok(err, 'expected rejection for ' + user + ':' + pass);
+    assert.equal(err.message, 'Invalid credentials');
+  }
+});
+
+test('client auth rejects missing header, malformed Basic and Bearer without a portal', async () => {
+  const credentials = { username: 'client', password: 's3cret' };
+  assert.equal((await clientAuth.authenticate({ headers: {} }, credentials)).message, 'Authorization required');
+  const noColon = { authorization: 'Basic ' + Buffer.from('nocolon').toString('base64') };
+  assert.equal((await clientAuth.authenticate({ headers: noColon }, credentials)).message, 'Invalid authorization format');
+  // INTERNAL_API_SECRET is unset in tests, so Bearer keys cannot be validated.
+  assert.equal((await clientAuth.authenticate({ headers: { authorization: 'Bearer abc' } }, credentials)).message, 'Authorization required');
+});
+
+test('safeEqual compares by value and length', () => {
+  assert.equal(clientAuth.safeEqual('abc', 'abc'), true);
+  assert.equal(clientAuth.safeEqual('abc', 'abd'), false);
+  assert.equal(clientAuth.safeEqual('abc', 'abc\0'), false);
+  assert.equal(clientAuth.safeEqual('', ''), true);
 });

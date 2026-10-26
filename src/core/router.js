@@ -10,8 +10,7 @@ const openaiCompatible = require('../providers/openai-compatible');
 const { sanitizeResponseBody, sanitizeLogValue } = require('./sanitizer');
 const policy = require('./policy');
 const requestLogger = require('./request-logger');
-const apiKeyAuth = require('./api-key-auth');
-const config = require('../config');
+const clientAuth = require('./client-auth');
 const configStore = require('./config-store');
 const { getDirectProviderConfig, resolveSecret, getProviderKeys } = require('./direct-provider-config');
 const keyPool = require('./key-pool');
@@ -1413,40 +1412,9 @@ async function handleRequest(req, res) {
     // (GET /v1/models) so internal model names aren't enumerable without a key.
     const requiresAuth = req.method === 'POST' || (req.method === 'GET' && req.url === '/v1/models');
     if (requiresAuth && !process.env.AIPROXY_TEST_MODE) {
-      const authHeader = req.headers['authorization'] || '';
-
-      if (authHeader.startsWith('Bearer ') && apiKeyAuth.isEnabled()) {
-        const apiKey = authHeader.slice(7);
-        const keyData = await apiKeyAuth.validateKey(apiKey);
-        if (!keyData || !keyData.valid) {
-          const errResp = buildErrorResponse(new AiproxyError('Invalid API key', 401, 'invalid_request_error', 'unauthorized', 'Invalid API key'), requestId);
-          res.writeHead(401, { 'Content-Type': 'application/json' });
-          res.end(JSON.stringify(errResp.body));
-          return;
-        }
-        req.authKey = keyData;
-      } else if (authHeader.startsWith('Basic ')) {
-        const token = authHeader.slice(6);
-        const decoded = Buffer.from(token, 'base64').toString('utf8');
-        const colonIdx = decoded.indexOf(':');
-        if (colonIdx === -1) {
-          const errResp = buildErrorResponse(new AiproxyError('Invalid authorization format', 401, 'invalid_request_error', 'unauthorized', 'Invalid authorization'), requestId);
-          res.writeHead(401, { 'Content-Type': 'application/json' });
-          res.end(JSON.stringify(errResp.body));
-          return;
-        }
-        const username = decoded.slice(0, colonIdx);
-        const password = decoded.slice(colonIdx + 1);
-        const expectedUser = config.opencode.username;
-        const expectedPass = config.opencode.password;
-        if (expectedUser && expectedPass && (username !== expectedUser || password !== expectedPass)) {
-          const errResp = buildErrorResponse(new AiproxyError('Invalid credentials', 401, 'invalid_request_error', 'unauthorized', 'Invalid credentials'), requestId);
-          res.writeHead(401, { 'Content-Type': 'application/json' });
-          res.end(JSON.stringify(errResp.body));
-          return;
-        }
-      } else {
-        const errResp = buildErrorResponse(new AiproxyError('Authorization required', 401, 'invalid_request_error', 'unauthorized', 'Authorization required'), requestId);
+      const authError = await clientAuth.authenticate(req);
+      if (authError) {
+        const errResp = buildErrorResponse(authError, requestId);
         res.writeHead(401, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify(errResp.body));
         return;

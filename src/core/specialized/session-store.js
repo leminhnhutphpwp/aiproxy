@@ -128,7 +128,7 @@ function cleanupSessions() {
   }
 }
 
-setInterval(cleanupSessions, 5 * 60 * 1000);
+setInterval(cleanupSessions, 5 * 60 * 1000).unref();
 
 module.exports = {
   getSession,
